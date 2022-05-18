@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentWebapp
 build_property.RootNamespace = StudentWebapp
-build_property.ProjectDir = D:\AliveCoder\Dotnet\Student\StudentWebapp\
+build_property.ProjectDir = d:\AliveCoder\Dotnet\Student\StudentWebapp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\AliveCoder\Dotnet\Student\StudentWebapp
+build_property.MSBuildProjectDirectory = d:\AliveCoder\Dotnet\Student\StudentWebapp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Areas/Identity/Pages/_ViewStart.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Faculty/Create.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Faculty/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Faculty/Edit.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Faculty/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Faculty/List.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Faculty/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Home/Index.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Home/Privacy.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Shared/Error.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Shared/_LoginPartial.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Shared/_Notification.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/_ViewImports.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/_ViewStart.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Shared/_Layout.cshtml]
+[d:/AliveCoder/Dotnet/Student/StudentWebapp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hlgutbxfc9
