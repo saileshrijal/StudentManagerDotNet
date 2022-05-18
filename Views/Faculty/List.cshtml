@@ -1,0 +1,61 @@
+@model List<Faculty>
+
+@{
+    ViewData["Title"] = "List of Faculties";
+}
+
+<div>
+    <div class="row my-3">
+        <div class="col-9">
+
+            <h2>@ViewData["Title"]</h2>
+        </div>
+        <div class="col-3">
+            <a class="btn btn-outline-primary float-end" asp-action="Create"><i class="bi bi-plus-circle-fill"></i>
+                Create Faculty</a>
+        </div>
+    </div>
+
+    @if (Model.Count < 1)
+    {
+        <div class="card">
+            <div class="card-body shadow">
+                <h4 class="fw-bold text-uppercase text-primary">No Any Faculty Created</h4>
+            </div>
+        </div>
+    }
+
+    @{
+        int index = 0;
+    }
+    @foreach (var faculty in Model)
+    {
+        index++;
+        <div class="card mb-3 shadow">
+
+            <div class="card-body ">
+                <div class="row">
+                    <div class="col-1 d-flex align-items-center justify-content-start">
+                        @index.
+                    </div>
+                    <div class="col-8">
+                        <h4 class="fw-bold text-uppercase text-primary">
+                            @faculty.FacultyName
+                        </h4>
+                        @faculty.Description
+                    </div>
+                    <div class="col-3 d-flex align-items-center justify-content-end">
+                        <div class="btn-group">
+                            <a class="btn btn-warning" asp-action="Edit" asp-route-id="@faculty.Id"><i
+                                class="bi bi-pencil-square"></i></a>
+                            <form method="post" asp-action="Delete" asp-route-id=@faculty.Id>
+                                <button type="submit" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    }
+</div>

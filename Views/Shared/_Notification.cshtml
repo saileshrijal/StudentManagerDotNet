@@ -1,0 +1,7 @@
+@if (TempData["success"] != null)
+{
+    <script>
+        console.log("I am in")
+        toastr.success("@TempData["success"]");
+    </script>
+}
