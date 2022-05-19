@@ -14,5 +14,6 @@ namespace ViewModels
         public string? FacultyName { get; set; }
         public string? Description { get; set; }
 
+
     }
 }

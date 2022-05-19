@@ -1,5 +1,8 @@
+using System.Collections.Generic;
+using Common;
 using Core.IConfiguration;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using StudentWebapp.Models;
 using ViewModels;
 
@@ -13,10 +16,28 @@ namespace Controllers
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<IActionResult> List()
+        public async Task<IActionResult> List(string searchString, string currentFilter, int? pageNumber)
         {
+            ViewData["CurrentFilter"] = searchString;
+
+            if (searchString != null)
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+            ViewData["CurrentFilter"] = searchString;
             var faculties = await _unitOfWork.Faculty.GetAll();
-            return View(faculties);
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                faculties = await _unitOfWork.Faculty.GetAllBy(f => f.FacultyName.Contains(searchString)
+                                       || f.Description.Contains(searchString));
+            }
+            int pageSize = 3;
+            return View(PaginatedList<Faculty>.CreateAsync(faculties, pageNumber ?? 1, pageSize));
         }
 
         [HttpGet]
