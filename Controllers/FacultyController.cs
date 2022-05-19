@@ -99,6 +99,7 @@ namespace Controllers
                 Id = faculty.Id,
                 FacultyName = faculty.FacultyName,
                 Description = faculty.Description,
+                InitialFacultyName = faculty.FacultyName
             };
             return View(facultyModel);
         }
@@ -128,8 +129,12 @@ namespace Controllers
             return RedirectToAction(nameof(List));
         }
 
-        public async Task<IActionResult> VerifyFacultyName(string FacultyName)
+        public async Task<IActionResult> VerifyFacultyName(string FacultyName, string InitialFacultyName)
         {
+            if (FacultyName == InitialFacultyName)
+            {
+                return Json(true);
+            }
 
             if (await _unitOfWork.Faculty.CheckExistBy(f => f.FacultyName.ToLower() == FacultyName.ToLower()))
             {

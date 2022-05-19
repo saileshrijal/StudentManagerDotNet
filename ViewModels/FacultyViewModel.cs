@@ -10,10 +10,9 @@ namespace ViewModels
 
         [Required]
         [Display(Name = "Faculty Name")]
-        [Remote(action: "VerifyFacultyName", controller: "Faculty")]
+        [Remote(action: "VerifyFacultyName", controller: "Faculty", AdditionalFields = "InitialFacultyName")]
         public string? FacultyName { get; set; }
         public string? Description { get; set; }
-
-
+        public string? InitialFacultyName { get; set; }
     }
 }

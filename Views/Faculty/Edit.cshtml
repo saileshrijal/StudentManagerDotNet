@@ -13,6 +13,7 @@
     <form method="post" asp-action="Edit">
         <div asp-validation-summary="ModelOnly"></div>
         <input type="hidden" asp-for="Id">
+        <input type="hidden" name="InitialFacultyName" value="@Model.FacultyName">
         <div class="mb-3 form-floating">
             <input type="text" class="form-control" asp-for="FacultyName">
             <label asp-for="FacultyName" class="form-label"></label>
