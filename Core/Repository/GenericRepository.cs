@@ -52,5 +52,10 @@ namespace Core.Repository
         {
             return await entities.FirstOrDefaultAsync(predicate);
         }
+
+        public async Task<int> TotalCount()
+        {
+            return entities.Count();
+        }
     }
 }

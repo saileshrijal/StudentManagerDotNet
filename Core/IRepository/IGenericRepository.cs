@@ -11,5 +11,6 @@ namespace Core.IRepository
         Task Delete(Guid id);
         Task Edit(T t);
         Task<bool> CheckExistBy(Expression<Func<T, bool>> predicate);
+        Task<int> TotalCount();
     }
 }

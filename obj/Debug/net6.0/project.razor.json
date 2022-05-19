@@ -16371,11 +16371,6 @@
       "FilePath": "d:\\AliveCoder\\Dotnet\\Student\\StudentWebapp\\Views\\Faculty\\List.cshtml",
       "TargetPath": "Views\\Faculty\\List.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AliveCoder\\Dotnet\\Student\\StudentWebapp\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

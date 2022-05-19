@@ -1,8 +1,38 @@
-﻿@{
+﻿@model HomeViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center mt-5">
     <h3 class="display-4">Welcome</h3>
-    <h1 class="display-1 fw-bold">Student Manager Application</h1>
+    <h1 class="display-2 fw-bold text-primary text-uppercase">Student Manager Application</h1>
+    <div class="mt-4">
+        <div class="row">
+            <div class="col-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h1 class="card-header">Faculty</h1>
+                        <h2 class="card-body display-2 text-primary fw-bold">@Model.FacultyCount</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h1 class="card-header">Subject</h1>
+                        <h2 class="card-body display-2 text-primary fw-bold">@Model.SubjectCount</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h1 class="card-header">Student</h1>
+                        <h2 class="card-body display-2 text-primary fw-bold">2</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
