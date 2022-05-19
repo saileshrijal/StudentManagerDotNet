@@ -8,11 +8,13 @@ namespace Data
     public class UnitOfWork : IUnitOfWork
     {
         public IFacultyRepository Faculty { get; private set; }
+        public ISubjectRepository Subject { get; private set; }
         private readonly ApplicationDbContext _context;
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
             Faculty = new FacultyRepository(_context);
+            Subject = new SubjectRepository(_context);
         }
 
         public async Task SaveChangesAsync()

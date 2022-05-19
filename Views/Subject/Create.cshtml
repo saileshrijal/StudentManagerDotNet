@@ -1,0 +1,43 @@
+@model SubjectViewModel
+
+@{
+    ViewData["Title"] = "Create New Subject";
+}
+
+<div class="col-9 mx-auto">
+    <div class="row my-3">
+        <div>
+            <h2 class="text-center">@ViewData["Title"]</h2>
+        </div>
+    </div>
+    <form method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="mb-3 form-floating">
+            <input type="text" class="form-control" asp-for="SubjectName">
+            <label asp-for="SubjectName" class="form-label"></label>
+            <span asp-validation-for="SubjectName" class="text-danger"></span>
+        </div>
+        <div class="mb-3 form-floating">
+            <textarea type="text" class="form-control h-50" asp-for="Description" rows="5"></textarea>
+            <label asp-for="Description" class="form-label"></label>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <div class="row">
+                <div class="col-9">
+                    <button type="submit" class="form-control btn btn-primary"><i class="bi bi-file-earmark-post"></i>
+                        Save</button>
+                </div>
+                <div class="col-3">
+                    <a asp-action="List" class="btn btn-success form-control"><i
+                            class="bi bi-arrow-left-circle-fill"></i> Go Back</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts
+{
+<partial name="_ValidationScriptsPartial">
+    }

@@ -16298,6 +16298,11 @@
   "RootNamespace": "StudentWebapp",
   "Documents": [
     {
+      "FilePath": "d:\\AliveCoder\\Dotnet\\Student\\StudentWebapp\\Views\\Subject\\Edit.cshtml",
+      "TargetPath": "Views\\Subject\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\AliveCoder\\Dotnet\\Student\\StudentWebapp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -16310,6 +16315,11 @@
     {
       "FilePath": "d:\\AliveCoder\\Dotnet\\Student\\StudentWebapp\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\AliveCoder\\Dotnet\\Student\\StudentWebapp\\Views\\Subject\\List.cshtml",
+      "TargetPath": "Views\\Subject\\List.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16335,6 +16345,11 @@
     {
       "FilePath": "d:\\AliveCoder\\Dotnet\\Student\\StudentWebapp\\Views\\Faculty\\Create.cshtml",
       "TargetPath": "Views\\Faculty\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\AliveCoder\\Dotnet\\Student\\StudentWebapp\\Views\\Subject\\Create.cshtml",
+      "TargetPath": "Views\\Subject\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
