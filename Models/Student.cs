@@ -6,6 +6,9 @@ namespace StudentWebapp.Models
     {
         public Guid Id { get; set; }
 
+        [Required, Display(Name = "Student Id")]
+        public string? StudentId { get; set; }
+
         [Required]
         public string? Name { get; set; }
 
@@ -21,6 +24,7 @@ namespace StudentWebapp.Models
         public int FacultyId { get; set; }
         public Faculty? Faculty { get; set; }
 
+        public string? PhotoUrl { get; set; }
         public List<Student>? Students { get; set; }
     }
 }
